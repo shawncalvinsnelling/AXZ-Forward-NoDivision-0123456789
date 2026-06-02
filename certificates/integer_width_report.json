@@ -1,0 +1,7 @@
+{
+  "exceeds_unsigned_64_bit": false,
+  "guard": "separate runtime guard confirms arithmetic beyond 2^64 is exact",
+  "max_absolute_final_bit_length": 27,
+  "max_absolute_final_value": 123456789,
+  "runtime": "Python arbitrary-precision integers"
+}

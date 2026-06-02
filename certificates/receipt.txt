@@ -1,0 +1,27 @@
+AXZ Forward 0-to-9 No-Division Ordered Arithmetic Gap Certificate
+
+Repository: AXZ-Forward-NoDivision-0123456789
+Sequence: 0 1 2 3 4 5 6 7 8 9
+Truth label: CERTIFIED_FINITE_EXACT_INTEGER_RESULT_UNDER_STATED_RULES
+
+Result:
+- Every positive integer from 1 through 8311 is representable.
+- First missing positive integer: 8312.
+
+Boundary witness:
+8311 = ((((0123*(4+5))-67)*8)-9)
+
+Counts:
+- Possible cut patterns: 512
+- Unique integer values: 188911
+- Positive values: 94455
+- Non-positive values: 94456
+- Negative values: 94455
+- Zero present: true
+
+Hashes:
+- All-values SHA-256: d8f9c17baa4e88267497cf1be38e4ab3c7fbad6b31c6ef1fcac12b0952d2d530
+- Positive-values SHA-256: 8dccc4802d76e7e91fc5999366314d63c72e5c70373830d81a7822141a54947b
+- Non-positive-values SHA-256: fcf638442b8b0bbb8e4d30dd83caf8cba77ef8ff56e0f5bfc5527b8dca9c4fed
+- Negative-values SHA-256: 595ece93bb0eea85c2518169f910d8a0a0d810b480bbbd500095fbbfa0df31e7
+- All-interval-values SHA-256: ad49a3d81fa8f91849393e5b09fa42f62b582b19859e379cf18b5cecd2684320

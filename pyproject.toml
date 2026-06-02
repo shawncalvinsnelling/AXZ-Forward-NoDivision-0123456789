@@ -1,0 +1,14 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "axz-forward-nodivision-0123456789"
+version = "1.0.0"
+description = "Finite exact certificate for the forward 0-to-9 no-division ordered arithmetic gap."
+readme = "README.md"
+requires-python = ">=3.10"
+license = {text = "MIT"}
+
+[tool.setuptools.packages.find]
+where = ["src"]

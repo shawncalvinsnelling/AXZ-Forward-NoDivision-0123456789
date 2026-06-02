@@ -1,0 +1,54 @@
+{
+  "certificate": {
+    "all_interval_unique_values_generated": 192785,
+    "boundary_witness": {
+      "expression": "((((0123*(4+5))-67)*8)-9)",
+      "n": 8311
+    },
+    "consecutive_positive_integers_from_1": 8311,
+    "first_missing_positive_integer": 8312,
+    "max_absolute_final_bit_length": 27,
+    "max_absolute_final_value": 123456789,
+    "max_value": 123456789,
+    "min_value": -123456789,
+    "negative_integer_values_generated": 94455,
+    "nonpositive_integer_values_generated": 94456,
+    "positive_integer_values_generated": 94455,
+    "possible_cut_patterns": 512,
+    "unique_integer_values_generated": 188911,
+    "zero_present": true
+  },
+  "challenge": "AXZ Forward 0-to-9 No-Division Ordered Arithmetic Gap",
+  "challenge_number": 3,
+  "digit_sequence": "0123456789",
+  "digit_sequence_spaced": "0 1 2 3 4 5 6 7 8 9",
+  "hashes": {
+    "all_interval_values_sha256": "ad49a3d81fa8f91849393e5b09fa42f62b582b19859e379cf18b5cecd2684320",
+    "all_values_sha256": "d8f9c17baa4e88267497cf1be38e4ab3c7fbad6b31c6ef1fcac12b0952d2d530",
+    "negative_values_sha256": "595ece93bb0eea85c2518169f910d8a0a0d810b480bbbd500095fbbfa0df31e7",
+    "nonpositive_values_sha256": "fcf638442b8b0bbb8e4d30dd83caf8cba77ef8ff56e0f5bfc5527b8dca9c4fed",
+    "positive_values_sha256": "8dccc4802d76e7e91fc5999366314d63c72e5c70373830d81a7822141a54947b"
+  },
+  "repository": "AXZ-Forward-NoDivision-0123456789",
+  "rules": {
+    "allowed_operations": [
+      "+",
+      "-",
+      "*"
+    ],
+    "concatenation_allowed": true,
+    "decimals_allowed": false,
+    "digit_reordering_allowed": false,
+    "digits_remain_in_order": true,
+    "digits_used_exactly_once": true,
+    "division_allowed": false,
+    "factorials_allowed": false,
+    "hidden_constants_allowed": false,
+    "leading_zero_substrings_interpreted_by_integer_value": true,
+    "logs_allowed": false,
+    "powers_allowed": false,
+    "roots_allowed": false,
+    "subtraction": "directional left-subtree minus right-subtree only"
+  },
+  "truth_label": "CERTIFIED_FINITE_EXACT_INTEGER_RESULT_UNDER_STATED_RULES"
+}
